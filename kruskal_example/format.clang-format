@@ -1,0 +1,33 @@
+﻿---
+Language:        Cpp
+BasedOnStyle:  LLVM
+IndentWidth:     4
+AccessModifierOffset: -4
+TabWidth:        8
+UseTab:          Never
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: false
+BreakBeforeBraces: Allman 
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit:     120
+IndentCaseLabels: true
+MacroBlockBegin: "^ENUM2STR_TABLE*$"
+MacroBlockEnd: "^ENUM2STR.*_END.*$"
+NamespaceIndentation: None
+PointerAlignment: Left
+SpacesInParentheses: true
+SpacesInSquareBrackets: true
+SpaceBeforeParens: ControlStatements
+SpacesInCStyleCastParentheses: true
+SpacesInAngles: true
+SpaceAfterTemplateKeyword: false
+SortIncludes: false
+...
